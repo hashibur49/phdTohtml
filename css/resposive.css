@@ -1,0 +1,148 @@
+/* Tablate Layout */
+@media only screen and (min-width:200px) and (max-width:991px){
+    
+     .social-area{
+         max-width: 460px;
+     }
+
+     .inner-main-menu{
+         background: none;
+         min-height: auto;
+         padding: 0;
+     }
+     .inner-main-menu::after{
+        display: none;
+        min-height: 0;
+    }
+    .inner_hero h2 {
+        font-size: 57px;   
+      }
+    .child-service .service-text{
+        padding-left: 15px;
+    }
+    .child-work h2 {
+        font-size: 24px;  
+      }
+      .child_footer h3 {
+        font-size: 12px;  
+      }
+      .child_footer h4 {
+        margin-top: 5px;
+      }
+    .child-service .service-text p { 
+        padding: 0;
+      }
+    .left_copyright{
+        font-size: 14px;
+    }
+    .right_copyright{
+        font-size: 14px;
+    }
+    ul.dropdown{
+      position: relative;
+       
+     
+  }
+    ul.dropdown li{
+      background-color: black;
+      position: absolute; 
+      margin: 0;
+      padding: 0;
+      left: 0;}
+
+      ul.dropdown2{
+        position: relative;
+        width: 100%;
+    }
+      ul.dropdown2 li{
+        background-color: black;
+        position: absolute; 
+        margin: 0;
+        padding: 0;
+        left: -98%;
+        right: 0; 
+    }
+      
+}
+
+/* Mobile Layout */
+
+@media only screen and (min-width:200px) and (max-width:480px){
+
+    .mini_menu{
+        width: 100%;
+        margin-bottom: 10px;
+
+    }
+    .mini_menu ul , .social-area ul{
+        text-align: center;
+    }
+    .search-area , .logo-area{
+        width: 200px;
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .inner-header {
+        padding-top: 10px;
+    }
+    .social-area{
+        padding: 10px;
+    }
+    .social-area ul li{
+         margin: 0 2px;
+    }
+    .inner_hero {
+        padding-bottom: 20px;
+      }
+    .inner_hero h2 {
+        font-size: 35px;
+        text-align: center;
+        padding-bottom: 20px;
+      }
+      #work_area , .footer_area {  
+        padding: 20px 0;
+      }
+    .child-work , .child_footer{
+        width: 96%;
+    }
+    
+    .child-work h2 {
+        padding-bottom: 20px;
+      }
+    .left_copyright{
+        width: 100%;
+        text-align: center;
+    }
+    .right_copyright{
+        width: 100%;
+        text-align: center;
+    }
+    ul.dropdown{
+      position: relative;
+      width: 100%;
+     
+  }
+    ul.dropdown li{
+      background-color: black;
+      position: absolute; 
+      margin: 0;
+      padding: 0;
+      left: 0;
+      
+  }
+
+  ul.dropdown2{
+    position: relative;
+    width: 100%;
+}
+  ul.dropdown2 li{
+    background-color: black;
+    position: absolute; 
+    margin: 0;
+    padding: 0;
+    left: -90%;
+    right: 0; 
+}
+ 
+}
